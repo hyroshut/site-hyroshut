@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/pages/home.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
-              <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
               <folding>
                 <element signature="e#2043#2066#0#HTML" expanded="true" />
               </folding>
@@ -66,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -113,9 +113,9 @@
         <option value="$PROJECT_DIR$/src/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/public/css/home.css" />
         <option value="$PROJECT_DIR$/views/template.twig" />
-        <option value="$PROJECT_DIR$/views/pages/home.twig" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/views/pages/home.twig" />
       </list>
     </option>
   </component>
@@ -273,12 +273,12 @@
       <updated>1478001476864</updated>
       <workItem from="1478001478803" duration="7830000" />
       <workItem from="1478087685947" duration="1658000" />
-      <workItem from="1478166597842" duration="25529000" />
+      <workItem from="1478166597842" duration="25877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35017000" />
+    <option name="totallyTimeSpent" value="35365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -626,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/home.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
-          <folding>
-            <element signature="e#2043#2066#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -660,6 +650,16 @@
         <state relative-caret-position="100">
           <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/home.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="e#2043#2066#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
