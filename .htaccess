@@ -1,5 +1,5 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^hyroshut.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.hyroshut.ml$
-RewriteCond %{REQUEST_URI} !public/
-RewriteRule (.*) /public/$1 [L]
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
