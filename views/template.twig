@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}Hyroshut{% endblock %}</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    {% block head %}{% endblock %}
+    <style type="text/css">
+        #freecssfooter{display:block;width:100%;padding:120px 0 20px;overflow:hidden;background-color:transparent;z-index:5000;text-align:center;}
+        #freecssfooter div#fcssholder div{display:none;}
+        #freecssfooter div#fcssholder div:first-child{display:block;}
+        #freecssfooter div#fcssholder div:first-child a{float:none;margin:0 auto;}
+        .btnhomeimg {height: 50px; margin-top: 0px;}
+    </style>
+</head>
+<body>
+<header class="main-header">
+    <nav class="navbar navbar-static-top">
+        <div class="navbar-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <ul class="list-unstyled list-inline header-contact">
+                            <li><i class="fa fa-envelope"></i> <a href="mailto:contact@hyroshut.ml">contact@hyroshut.ml</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 text-right">
+                        <ul class="list-unstyled list-inline header-social">
+                            <li><a href="https://www.fb.me/hyrogaming08"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://github.com/hyroshut/hyroshut-software"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCyGKWNBF6cwIeyh3ihhFV6g"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-main">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                    <a class="navbar-brand" href="http://www.free-css.com/free-css-templates">
+                        <img class="btnhomeimg" src="/img/hyroshut-white.png" height="50" alt="website template image">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse pull-right">
+                    <ul class="nav navbar-nav">
+                        <li><a class="" href="/">Accueil</a></li>
+                        <li><a class="" href="https://github.com/hyroshut/hyroshut-software/raw/master/output/hyroshut-setup.exe">Télécharger</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main id="main">
+    <div id="all_content">
+        {% block body %}{% endblock %}
+    </div>
+</main>
+</body>
+</html>

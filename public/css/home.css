@@ -1,0 +1,71 @@
+#imageblock {
+    display: block;
+    font-family: Roboto;
+    heigth: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("/img/keyboard-886462.jpg");
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+}
+#imageblock-black {
+    display: block;
+    margin-bottom: 75px;
+}
+
+#imageblock h1 {
+    font-family: Roboto;
+    font-size: 70px;
+}
+
+#container_imb {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#textcontent_imb {
+    font-size: 22px;
+    text-align: center;
+}
+
+#download_button {
+    margin: 50px 0;
+    border-radius: 0px;
+    font-size: 22px;
+}
+
+.quality_text_1 {
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.quality_img {
+    text-align: center;
+}
+
+.quality_bloc {
+    text-align: center;
+}
+
+.quality_subcontainer {
+    padding-top: 25px;
+    background-color: #ffffff;
+}
+
+.quality_description {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#quality_intro {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}

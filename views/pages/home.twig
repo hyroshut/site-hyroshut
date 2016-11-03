@@ -1,0 +1,49 @@
+{% extends "template.twig" %}
+{% block title %}Hyroshut - Site officiel{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+{% endblock %}
+{% block body %}
+    <div class="row" id="imageblock">
+        <div id="imageblock-black"></div>
+        <div class="container" id="container_imb">
+            <h1>Hyroshut</h1>
+            <p id="textcontent_imb">
+                Hyroshut est un logiciel libre et gratuit servant a programmer l'arrêt de son PC,
+                il fonctionne en 3 étapes simples, choisir entre Eteindre et Redémarrer, choisir le temps avant l'arrêt et appuyer sur le bouton.
+                <br/>
+                <button class="btn btn-default btn-lg" id="download_button" onclick="location = 'https://github.com/hyroshut/hyroshut-software/raw/master/output/hyroshut-setup.exe'">Télécharger (v1.0)</button>
+            </p>
+        </div>
+    </div>
+    <div class="quality_subcontainer">
+        <div class="container">
+            <div class="row">
+                <h2 id="quality_intro">Pourquoi utiliser Hyroshut ?</h2>
+                <div class="col-md-4 quality_bloc">
+                    <span class="quality_text_1">Il est gratuit !</span>
+                    <img src="img/free.png" class="quality_img" alt="FREE"/>
+                    <p class="quality_description">
+                        Hyroshut est totalement gratuit, aucun logiciel tiers n'est proposé lors de l'installation.
+                    </p>
+                </div>
+                <div class="col-md-4 quality_bloc">
+                    <span class="quality_text_1">Il est open-source !</span>
+                    <img src="img/opensource.png" class="quality_img" alt="FREE"/>
+                    <p class="quality_description">
+                        Hyroshut est un logiciel open-source, cela signifie que vous pouvez voir son code source sur <a
+                                href="https://github.com/hyroshut/hyroshut-software" style="color: #177797;">GitHub</a>.
+                    </p>
+                </div>
+                <div class="col-md-4 quality_bloc">
+                    <span class="quality_text_1">Il est léger !</span>
+                    <img src="img/small.png" class="quality_img" alt="FREE"/>
+                    <p class="quality_description">
+                        Hyroshut ne pèse que 2Mo et l'installateur ne pèse que 633 Ko.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
