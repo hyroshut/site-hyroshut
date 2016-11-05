@@ -1056,3 +1056,7 @@ form .alert {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
 }
+
+.header-contact {
+    font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+}
